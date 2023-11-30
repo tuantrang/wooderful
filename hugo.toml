@@ -2,4 +2,3 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Wooderful Carpentry'
 
-theme='hugo'
