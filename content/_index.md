@@ -1,18 +1,10 @@
 +++
-title = 'Wooderful Carpentry'
-date = 2023-11-29T21:53:40-06:00
+title = 'My website'
+date = 2023-11-29T22:56:31-06:00
+draft = false
+subtitle = 'Learing basic Hugo concepts.'
 +++
 
-#### Unordered lists
-- Apple
-- Bananas
-- Rambutan
-
-### Ordered Lists
-
-1.  Car
-2.  Airplane
-3.  Boat
-
-## Link
-www.google.com
+This is my home page.
+**bold
+*italic*
