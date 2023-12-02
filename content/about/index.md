@@ -5,4 +5,4 @@ draft = false
 +++
 
 
-My page is about woodworking.
+My page is about woodworking.  I got my hand into woodworking when I bought a table saw off Craiglist for $50 and build a workbench using it.  

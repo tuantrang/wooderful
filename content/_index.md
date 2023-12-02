@@ -6,7 +6,7 @@ subtitle = 'Learing basic Hugo concepts.'
 +++
 
 
--**Plans for tonight
--**Crazy chicken will make ramen
--**Watch Young Sheldon
--*Relax
+1 **Plans for tonight
+2 **Crazy chicken will make ramen
+3**Watch Young Sheldon
+4 *Relax
