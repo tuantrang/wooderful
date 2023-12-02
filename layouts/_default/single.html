@@ -7,6 +7,10 @@
 
   {{ .Content }}
   {{ $image := resources.Get "images/about.jpg" }}
+  {{ $image2 := resources.Get "images/about2.jpg" }}
+
   <img src='{{ ( $image.Resize "500x" ).RelPermalink }}' />
+  <img src='{{ ( $image2.Resize "500x" ).RelPermalink }}' />
+
   <!-- {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
 {{ end }}
