@@ -1,10 +1,12 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
 
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+  <!-- {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }} -->
+  <!-- {{ $dateHuman := .Date | time.Format ":date_long" }} -->
+  <!-- <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> -->
 
   {{ .Content }}
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  {{ $image := resources.Get "images/about.jpg" }}
+  <img src='{{ ( $image.Resize "500x" ).RelPermalink }}' />
+  <!-- {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
 {{ end }}
