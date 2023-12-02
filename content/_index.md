@@ -5,6 +5,8 @@ draft = false
 subtitle = 'Learing basic Hugo concepts.'
 +++
 
-This is my home page.
-**bold
-*italic*
+
+-**Plans for tonight
+-**Crazy chicken will make ramen
+-**Watch Young Sheldon
+-*Relax
