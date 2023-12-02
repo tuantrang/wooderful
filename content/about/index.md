@@ -5,4 +5,4 @@ draft = false
 +++
 
 
-My about page.
+My page is about woodworking.
