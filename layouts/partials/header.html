@@ -2,7 +2,7 @@
     <div class="container mx-auto h-[90px] flex items-center justify-between border-b border-b-gray">
         <a class="text-[24] font-bold" href="'/">{{ .Site.Title}}</a>
         
-        <nav class="flex gap-[20px]">
+        <nav class="flex gap-[20px] mr-2">
             {{ range .Site.Menus.main }}
             <a href='{{.URL}}' class="text-[18px] font-medium">{{ .Name}}</a>
             {{ end }}

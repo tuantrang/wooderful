@@ -1,4 +1,14 @@
 {{define "main"}}
+<!-- {{ $image := resources.Get "images/camper.png" }} -->
+{{ $image := $image.Process "resize 600x"}}
+
+<div class="flex justify-center items-center">
+    <!-- <img src='{{ ( $image.Resize "800x" ).RelPermalink }}' <img src='{{ ( $image.Resize "800x" ).RelPermalink }}' /> /> -->
+    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+     
+</div>
+
+
 <div class="text-2xl">
     {{.Content}}
 </div>

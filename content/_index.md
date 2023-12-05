@@ -5,8 +5,3 @@ draft = false
 subtitle = 'Learing basic Hugo concepts.'
 +++
 
-
-1. Plans for tonight
-2. Crazy chicken will make ramen
-3. Watch Young Sheldon
-4. Relax
