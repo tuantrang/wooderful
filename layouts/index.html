@@ -1,13 +1,10 @@
 {{define "main"}}
-<!-- {{ $image := resources.Get "images/camper.png" }} -->
-{{ $image := $image.Process "resize 600x"}}
 
-<div class="flex justify-center items-center">
-    <!-- <img src='{{ ( $image.Resize "800x" ).RelPermalink }}' <img src='{{ ( $image.Resize "800x" ).RelPermalink }}' /> /> -->
-    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
-     
+<div class="flex flex-col justify-center items-center">
+    {{ $image := resources.Get "images/camper2.png" }}
+    <img src='{{ ( $image.Resize "1280x" ).RelPermalink }}' />
+    {{ partial "hero.html" .}}
 </div>
-
 
 <div class="text-2xl">
     {{.Content}}

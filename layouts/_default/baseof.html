@@ -3,16 +3,15 @@
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body>
+  <body class="h-full">
     <header>
       {{ partial "header" . }}
     </header>
     <main>
       {{ block "main" . }}{{ end }}
     </main>
-    <footer>
+    <footer class="sticky bottom-0">
       {{ partial "footer" . }}
-    </footer>    
-    {{ partial "script-footer" . }}
+    </footer>        
   </body>
 </html>

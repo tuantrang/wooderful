@@ -5,7 +5,8 @@
   <!-- {{ $dateHuman := .Date | time.Format ":date_long" }} -->
   <!-- <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> -->
 
-  {{ .Content }}
+  <p class="text-white">{{ .Content }}</p>
+
   {{ $image := resources.Get "images/about.jpg" }}
   {{ $image2 := resources.Get "images/about2.jpg" }}
 
