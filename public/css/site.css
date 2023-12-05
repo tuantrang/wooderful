@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+a {
+    font-size: .8rem;
+    line-height: 2rem;
+    color: fff;
+    cursor: pointer;
+}
+body {
+    height: 200vh;
+}
+
+h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+p {
+    font-size: .8rem;
+    line-height: 2rem;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+}
+
+:root{
+    --site-color-01: #c13584;
+    --site-color-01:hover: #76114a;
+
+}
+
+main {
+    width: 100%;
+    /* height: calc(100vh - 60px); */
+    background-color: #1A253A;
+    /* margin-top: 60px; */
+    background-image: url(/images/wood_background_1280x582.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
